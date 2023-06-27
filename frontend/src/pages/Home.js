@@ -20,7 +20,7 @@ const {workouts, dispatch} = useWorkoutsContext()
     };
 
     fetchWorkouts();
-  }, []);
+  }, [dispatch]);
   return (
     <div className="home">
       <div className="workouts">
